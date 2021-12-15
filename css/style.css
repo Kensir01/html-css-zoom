@@ -16,7 +16,7 @@ body {
 /* Inizio Header */
 
 header {
-    height: 60px;
+    height: 50px;
     background-color: #000000;
 }
 
@@ -37,7 +37,6 @@ header .box {
 .nav-right {
     width: 100%;
     justify-content: flex-end;
-    position: fixed;
 }
 
 .flex-item {
@@ -45,6 +44,7 @@ header .box {
 }
 
 /* icone */
+
 .box-icon {
     width: 30px;
     height: 30px;
@@ -58,12 +58,12 @@ i.fas.fa-th {
 
 /* Inizio Main */
 
-
 .contenitore-principale {
+
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 100px);
     overflow-y: auto;
 }
 
@@ -71,8 +71,8 @@ i.fas.fa-th {
     position: relative;
     width: 250px;
     height: 150px;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .utente {
@@ -81,8 +81,74 @@ i.fas.fa-th {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
-    font-size: 10px;
-    padding: 10px;
+    font-size: 12px;
+    padding: 5px;
 }
 
 /* Fine Main */
+
+/* Inizio Footer */
+
+footer {
+    background-color: #212121;
+    height: 80%;
+    justify-content: space-between;
+    min-width: 1200px;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-left {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex.icone {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.icone p {
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+i.fas.fa-angle-up {
+    font-size: 12px;
+}
+
+.footer-main{
+    justify-content: space-between;
+    width: 50%;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.footer-right button{
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: #ff0000;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0px 30px;
+}
+
+.green{
+    color: rgb(20, 165, 1);
+}
+
+/* FINE FOOTER */
